@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.app{
+  width: 80vw;
+  border: 1px solid black;
+  margin: 20px auto;
+  height: 95vh;
+
+}
+.app__title{
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.btn{
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+
+}
+
+.btn__table{
+  margin-left: 15px;
+  padding: 3px 6px;
+  background-color: gray;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn__table:hover{
+  background-color: white;
+  color: gray;
+}
+
+.singielGiftView{
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+.children{
+    display: flex;
+    flex-wrap: wrap;
+}
+.children__title{
+    flex-basis: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.children__table{
+    flex-basis: 100%;
+    justify-content: center;
+    border: 1px solid black;
+}
